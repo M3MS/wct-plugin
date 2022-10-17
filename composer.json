@@ -1,0 +1,23 @@
+{
+    "name": "wct/wct",
+    "type": "project",
+    "description": "Winner Comparison Table Plugin",
+    "license": "MIT",
+    "repositories":[
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "vendor/{$name}/": [
+                "type:wordpress-plugin"
+            ]
+        }
+    },
+    "require": {
+        "wpackagist-plugin/advanced-custom-fields": "^5.9"
+    }
+    
+}
