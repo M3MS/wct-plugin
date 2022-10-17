@@ -62,4 +62,4 @@ npm-debug.log
 
 
 #Composer files
-/vendor/
+#/vendor/

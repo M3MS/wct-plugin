@@ -18,6 +18,9 @@
     },
     "require": {
         "wpackagist-plugin/advanced-custom-fields": "^5.9"
+        //Should use a private source to load acf pro version like:
+        //company-name/advanced-custom-fields-pro": "^5.9"
+        //or use acf key in source.
     }
     
 }
